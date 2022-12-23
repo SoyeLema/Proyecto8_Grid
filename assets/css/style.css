@@ -8,12 +8,12 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-        "header header"
-        "menu section"
-        "footer footer";
-    grid-template-columns: 15% 85%;
-    /*     width: 100vw;
-    height: 100vh; */
+        "header header header header"
+        "menu section section section"
+        "footer footer footer footer";
+    grid-template-columns: 20% 80%;
+    /* width: 100vw; */
+    /* height: 100vh; */
 }
 
 header {
@@ -42,7 +42,7 @@ menu {
 section {
     background-color: #fad8ce;
     grid-area: section;
-    padding: 10px;
+    padding: 20px;
     border-left: dashed 10px #fdab91;
 }
 
@@ -99,10 +99,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 50px;
-    padding: 2%;
+    gap: 30px;
+    padding: 1%;
     /* padding: 50px 100px 50px 100px; */
     font-size: 150%;
+    width: 100%;
 }
 
 .card-item {
