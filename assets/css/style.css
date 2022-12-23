@@ -12,7 +12,7 @@
         "menu section"
         "footer footer";
     grid-template-columns: 15% 85%;
-    /* width: 100vw;
+    /*     width: 100vw;
     height: 100vh; */
 }
 
@@ -100,7 +100,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
-    padding: 3% 10% 3% 10%;
+    padding: 2%;
     /* padding: 50px 100px 50px 100px; */
     font-size: 150%;
 }
